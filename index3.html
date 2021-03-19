@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main3.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>  <!-- JQueryをCDN経由で使うための1行 -->
+    <title>JavaScript/JQuery実践課題(梶原)</title>
+  </head>
+
+
+  <body>
+    <div class="title">  
+      <h2>3．リアルタイムフィルター</h2>
+      <p>入力した文字を含まない要素は非表示となります</p>
+    </div>
+      
+    <div class="wrapper">
+      <div class="search-area">
+        <form>
+          <input type="text" id="search-text">
+        </form>
+        <div class="search-result">
+          <div class="search-result__hit-num"></div>
+          <div id="search-result__list"></div>
+        </div>
+      </div>
+  
+      <ul class="target-area">
+        <li>
+          <div>
+            <img class="photo" src="img/photo1.JPG">
+            <p>キーワード</p>
+            <span>動物 ワラルー 海外 オーストラリア</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img class="photo" src="img/photo2.JPG">
+            <p>キーワード</p>
+            <span>海外 台湾 台北101</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img class="photo" src="img/photo3.JPG">
+            <p>キーワード</p>
+            <span>電車 日本 名古屋</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img class="photo" src="img/photo4.JPG">
+            <p>キーワード</p>
+            <span>動物 奈良 鹿</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img class="photo" src="img/photo5.JPG">
+            <p>キーワード</p>
+            <span>電車 海外 アメリカ</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img class="photo" src="img/photo6.JPG">
+            <p>キーワード</p>
+            <span>日本 函館 坂道</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+        
+      
+    <script src="main3.js"></script>
+  </body>
+</html>
